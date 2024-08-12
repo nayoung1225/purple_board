@@ -11,13 +11,13 @@ public class MemberController {
 
     @GetMapping("/login")
     public String loginView() {
-        System.out.println("========로그인========");
+        System.out.println("======== 로그인 ========");
         return "member/login";
     }
 
     @GetMapping("/join")
     public String joinView() {
-        System.out.println("========회원가입========");
+        System.out.println("======== 회원가입 ========");
         return "member/join";
     }
 }
