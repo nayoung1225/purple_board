@@ -26,7 +26,7 @@ public class MemberController {
 
     @PostMapping("/join")
     public String join(Member member) {
-        System.out.println(member.toString());;
+        System.out.println(member.toString());
         return "member/join";
     }
 
