@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### 08.13 추가 ###
+.properties
