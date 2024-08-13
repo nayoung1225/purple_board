@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ### 08.13 추가 ###
-.properties
+*.properties
